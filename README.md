@@ -19,7 +19,13 @@ This project is an implementation of a neural network to generate a machine-lear
 - File Structure : cartesian.py is used to generate the different structures of formaldehyde for usage in the calculation
                  : energytest.py generates the 14*14 grid of DFT energies for the different formaldehyde structures to train the ML model
                  : ModifiedNet.py uses TensorFlow to train an ML model on the DFT grid by using keras-tuner to recursively improve on the model MSE and train the best possible model and                        visualise the PES in MatPlotLib (possible for a 2D PES)
-  
+
+  -Sample Graphs with Different Models:
+
+  <img width="453" height="426" alt="Screenshot 2025-10-29 at 2 25 57 PM" src="https://github.com/user-attachments/assets/a41974b5-bcad-41c5-9f53-bacbe04d0c74" />
+
+  <img width="425" height="431" alt="Screenshot 2025-10-29 at 9 34 53 PM" src="https://github.com/user-attachments/assets/39914a6f-4800-42a9-9523-b0a500b4a3ba" />
+
   
                 
 
