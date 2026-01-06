@@ -14,7 +14,8 @@ This project is an implementation of a neural network to generate a machine-lear
                 2) The initial DFT data accuracy can be improved by using coupled-cluster methods and larger basis sets, at the expense of computational time.
                 3) GPU acceleration should be employed to increase computational power.
 
-
+- In one test the lowest MSE obtained was 5.666166543960571e-06 kJ, and could probably be lowered with more trial times and further trials should lower error bound further
+  
                 
 
 
