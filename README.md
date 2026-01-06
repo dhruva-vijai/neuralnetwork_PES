@@ -15,6 +15,11 @@ This project is an implementation of a neural network to generate a machine-lear
                 3) GPU acceleration should be employed to increase computational power.
 
 - In one test the lowest MSE obtained was 5.666166543960571e-06 kJ, and could probably be lowered with more trial times and further trials should lower error bound further
+
+- File Structure : cartesian.py is used to generate the different structures of formaldehyde for usage in the calculation
+                 : energytest.py generates the 14*14 grid of DFT energies for the different formaldehyde structures to train the ML model
+                 : ModifiedNet.py uses TensorFlow to train an ML model on the DFT grid by using keras-tuner to recursively improve on the model MSE and train the best possible model and                        visualise the PES in MatPlotLib (possible for a 2D PES)
+  
   
                 
 
