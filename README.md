@@ -24,7 +24,9 @@ The energies of 196 variants of formaldehyde are generated using Psi4 in Python 
 
 A neural network was created using TensorFlow/Keras in Python to predict the potential energy surface for future reactions and was trained on the 196 point data grid. 
 
-This problem presented a unique challenge as the goal of the model is to reduce overall DFT-dependence for PES generation; which demands a smaller training set. However, a smaller training set tends to lead to overfitting in complex models. The main issue here is that, in order to capture the intricacies and nuance in the PES, a relatively deep model is required. Thus, it ended up being a balancing game between model complexity and computational efficiency. The model was trained using a k-fold validation split to reduce overfitting caused due to the small sample size.
+This problem presented a unique challenge as the goal of the model is to reduce overall DFT-dependence for PES generation; which demands a smaller training set. However, a smaller training set tends to lead to overfitting in complex models. The main issue here is that, in order to capture the intricacies and nuance in the PES, a relatively deep model is required. Thus, it ended up being a balancing game between model complexity and computational efficiency.
+
+In the initial version, the model was trained using a k-fold validation split to reduce overfitting caused due to the small sample size(ModifiedNet.py). However, i ended up settling for a model with handpicked hyperparameters as the large sample space of possible hyperparameters and the small sample size led the model to pick very bad models that showed extremely tendencies to overfit training data instead of true extrapolative tendencies.
 
 
 ## Necessary Libraries
@@ -50,7 +52,7 @@ cd projects
 
 git clone
 
-python ModifiedNet.py
+python ideal.py
 
 
 ## Problems Faced 
@@ -80,7 +82,9 @@ python ModifiedNet.py
 
 2) energytest.py generates the 14*14 grid of DFT energies for the different formaldehyde structures to train the ML model
 
-3) ModifiedNet.py uses TensorFlow to train an ML model on the DFT grid by using keras-tuner to recursively improve on the model MSE and train the best possible model and                        visualise the PES in MatPlotLib (possible for a 2D PES)
+3) ModifiedNet.py uses TensorFlow to train an ML model on the DFT grid by using keras-tuner to recursively improve on the model MSE and train the best possible model and                        visualise the PES in MatPlotLib (possible for a 2D PES) - Old Model
+
+4) ideal.py uses TensorFlow to train an ML model on the DFT grid with a handpicked model architecture and hyperparameters
 
 ## Sample Graphs with Different Models
 
