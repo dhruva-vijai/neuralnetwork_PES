@@ -1,4 +1,4 @@
-<img width="453" height="360" alt="Screenshot 2026-01-17 at 4 12 12 PM" src="https://github.com/user-attachments/assets/edcd285c-9991-431d-a7a1-272b4295694f" /># Neural Network-Based Prediction of Potential Energy Surfaces
+# Neural Network-Based Prediction of Potential Energy Surfaces
 
 ## Problem Statement
 
