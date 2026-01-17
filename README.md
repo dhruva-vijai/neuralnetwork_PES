@@ -1,4 +1,4 @@
-# Neural Network-Based Prediction of Potential Energy Surfaces
+<img width="453" height="360" alt="Screenshot 2026-01-17 at 4 12 12 PM" src="https://github.com/user-attachments/assets/edcd285c-9991-431d-a7a1-272b4295694f" /># Neural Network-Based Prediction of Potential Energy Surfaces
 
 ## Problem Statement
 
@@ -91,6 +91,12 @@ python ideal.py
   <img width="453" height="426" alt="Screenshot 2025-10-29 at 2 25 57 PM" src="https://github.com/user-attachments/assets/a41974b5-bcad-41c5-9f53-bacbe04d0c74" />
 
   <img width="425" height="431" alt="Screenshot 2025-10-29 at 9 34 53 PM" src="https://github.com/user-attachments/assets/39914a6f-4800-42a9-9523-b0a500b4a3ba" />
+
+<img width="453" height="360" alt="Screenshot 2026-01-17 at 4 12 12 PM" src="https://github.com/user-attachments/assets/87cfea64-7e99-42ba-ae5f-a9e3d2d883a5" />
+
+<img width="426" height="392" alt="Screenshot 2026-01-17 at 4 11 06 PM" src="https://github.com/user-attachments/assets/186d2c26-269d-48fb-ae6b-a7a3c1665895" />
+
+  
 
   
                 
